@@ -3,14 +3,18 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Vercel
+# Production
+dist/
+build/
 .vercel
 
 # Environment variables
 .env
 .env.local
 .env.production
+.env.development
 
 # OS files
 .DS_Store
@@ -26,3 +30,6 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+# TypeScript
+*.tsbuildinfo
