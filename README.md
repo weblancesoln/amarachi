@@ -68,31 +68,48 @@ npm run preview
 
 ### Deploy to Vercel
 
+The project is fully configured for Vercel deployment with optimized settings.
+
 1. **Using Vercel CLI:**
    ```bash
    npm install -g vercel
    vercel
    ```
 
-2. **Using GitHub Integration:**
+2. **Using GitHub Integration (Recommended):**
    - Push your code to GitHub
-   - Import your repository in Vercel dashboard
-   - Vercel will automatically detect and deploy
-
-3. **Using Vercel Dashboard:**
    - Go to [vercel.com](https://vercel.com)
    - Click "New Project"
-   - Import your Git repository
+   - Import your GitHub repository
+   - Vercel will automatically detect Vite and configure:
+     - **Framework Preset:** Vite
+     - **Build Command:** `npm run build`
+     - **Output Directory:** `dist`
+     - **Install Command:** `npm install`
+   - Click "Deploy"
 
-### Build Command
-```bash
-npm run build
-```
+3. **Manual Configuration:**
+   - Framework Preset: Vite
+   - Root Directory: `./`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+   - Node.js Version: 18.x (specified in `.nvmrc`)
 
-### Output Directory
-```
-dist
-```
+### Vercel Configuration
+
+The `vercel.json` includes:
+- ✅ SPA routing support (all routes redirect to index.html)
+- ✅ Optimized caching headers for assets
+- ✅ Security headers
+- ✅ Automatic framework detection
+
+### Build Settings
+
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
+- **Node Version:** 18.x
+- **Framework:** Vite
 
 ## 🛠️ Development
 
