@@ -30,7 +30,7 @@
       ]
     },
     {
-      "source": "/*.css",
+      "source": "/styles.css",
       "headers": [
         {
           "key": "Cache-Control",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "source": "/*.js",
+      "source": "/script.js",
       "headers": [
         {
           "key": "Cache-Control",
