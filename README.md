@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing professional experience, skill
 
 ## Features
 
-- 🎨 Modern, elegant design with warm color palette
+- 🎨 Modern, elegant design with beautiful color palette
 - 📱 Fully responsive layout
 - ⚡ Fast loading with optimized assets
 - 🎯 Smooth scrolling navigation
@@ -73,7 +73,8 @@ npx http-server -p 8080
 - HTML5
 - CSS3 (with CSS Variables)
 - Vanilla JavaScript
-- Google Fonts (Cormorant Garamond, Outfit)
+- Google Fonts (Playfair Display, Inter)
+- Font Awesome Icons
 
 ## License
 
