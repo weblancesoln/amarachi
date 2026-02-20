@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         </a>
       </div>
       <div className="hero-image">
-        <img src="./assets/amarachi-photo.png" alt="Amarachi Juliet Uchechukwu - Professional portrait" />
+        <img src="/assets/amarachi-photo.png" alt="Amarachi Juliet Uchechukwu - Professional portrait" />
       </div>
     </header>
   )
