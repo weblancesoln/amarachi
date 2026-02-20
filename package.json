@@ -1,0 +1,21 @@
+{
+  "name": "amarachi-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Amarachi Juliet Uchechukwu",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "static"
+  ],
+  "author": "Amarachi Juliet Uchechukwu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  }
+}
